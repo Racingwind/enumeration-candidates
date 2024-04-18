@@ -6,4 +6,13 @@ require './filters'
 
 ## Your test code can go here
 
-pp @candidates
+# pp @candidates
+# pp experienced?(@candidates[0])
+# pp experienced?(@candidates[1])
+
+# pp find(5)
+# pp find(1)
+
+# pp qualified_candidates(@candidate)
+
+pp ordered_by_qualifications(@candidate)
